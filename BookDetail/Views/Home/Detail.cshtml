@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Detail.cshtml";
+}
+<link href="~/Content/DetailStyle.css" rel="stylesheet" />
+<div class="container">
+    <div class="bookdetailwrap" style="background-color:aliceblue">
+        <div class="bookdetail clearfix">
+            <a class ="image" href="~/Views/Home/Detail.cshtml">
+                <img src="~/Images/book1.jpg" /> 
+            </a>
+            <div class="info">
+                <h1>Lời của Nietzsche cho người trẻ - Tập 2</h1>
+                <div class="intro clearfix">
+                    <div class="attributes">
+                        <ul style="height: 0px; list-style: none; width: 245px;" ;>
+                            <li>Mã sản phẩm: <b>8935235238695</b></li>
+                            <li>Tác giả: <b>Shiratori Haruhiko</b></li>
+                            <li>Dịch giả: <b>Nguyễn Đỗ An Nhiên</b></li>
+                            <li>Nhà xuất bản: <b>Thế Giới</b></li>
+                            <li>Số trang: 276</li>
+                            <li>Kích thước: 14.5x20.5 cm</li>
+                            <li>Ngày phát hành: 08-09-2023</li>
+                        </ul>                   
+                    </div>
+                    <div class="action">
+                        <div class="price">
+                            <p class="oldprice">
+                                Giá bìa:
+                                <span>108.000đ</span>
+                            </p>
+                            <p>
+                                Giá Nhã Nam:
+                                <span>86.400đ</span> (Đã có VAT)
+                            </p>
+                        </div>
+                        <div style="font-size: 11px; margin-top: 27px; padding-bottom: 5px; text-transform: uppercase;">Số lượng</div>
+                        <div class="quantity" ;">
+                            <input class="tbQty" type="text" value="1" />
+                            <span class="arrowBlock">
+                                <img src="~/Images/cartup.png" />
+                                <img src="~/Images/cartdown.png" />
+
+                            </span>
+                        </div>
+                        <img src="~/Images/addtocart.png" style="float: right"; />
+                        <img src="~/Images/buynow.png" style="float: right; "/>
+                    </div>           
+                </div>
+            </div>
+        </div>
+        <div class="bookdetailblockcontent">
+            <h1>Giới thiệu sách</h1>
+            <article>
+                <p>Trong làng triết học phương Tây, Nietzsche có 
+                lẽ là một trường hợp hiếm hoi không khiến cho người ta phải sợ 
+                hãi [vì trừu tượng] hay ngao ngán [vì kinh viện]. Cũng vậy ở Việt
+                Nam, kể từ khi các tác phẩm của Nietzsche lần đầu xuất hiện, biết
+                bao nhiêu thế hệ trẻ đã đọc và yêu mến ông, mang theo tư tưởng 
+                mãnh liệt và hân hoan của ông trong hành trang của đời mình, cùng với 
+                những tình yêu, hoài bão và đổ vỡ.</p>
+                <p> </p>
+                <p>Với những ai đã mệt mỏi khi ngụp lặn trong di sản hỗn độn của Nietzsche
+                [về tôn giáo, nghệ thuật, thơ ca...], đã hoang mang giữa bao nhiêu lý luận
+                và đồn đoán về ông [khơi mào cho chủ nghĩa phát xít, cổ xúy cho tư tưởng bài
+                Do Thái...], hãy cùng tìm đến những lời giản dị và thiết thực của Nietzsche
+                trong bộ sách đã được Shiratori Haruhiko, nhà phê bình xứ sở của Thiền định
+                nỗ lực tuyển chọn và biên soạn. Chúng ta sẽ càng thêm yêu mến ông qua những
+                khía cạnh của một con người, một tâm hồn nghệ sĩ bên cạnh danh xưng “một triết
+                gia của mặt đất”.</p>
+                <p> </p>
+                <p>
+                    “Các bạn trẻ, hãy dũng cảm lên. Hãy dũng cảm đến mức khiến người khác sợ hãi.”
+                </p>
+
+                  <p>  - (Zarathustra đã nói như thế,“Về chiến tranh và các chiến binh”)</p>
+              
+            </article>
+
+        </div>
+        <div class="bookdetailblock">
+            <h1>Có thể bạn quan tâm</h1>
+            <article>
+                <div class="bookslider">
+                    <div style="display: block; text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 900px; height: 210px; margin: 0px; overflow: hidden;">
+                        <ol class="clearfix bookP" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 0px; margin: 0px; width: 4500px; height: 210px;list-style:none">
+                            <li class="bookP">
+                                <img src="~/Images/book2.jpg" style=" width: 130px; height: 190px;" />
+                            </li>
+                            <li class="bookP">
+                                <img src="~/Images/book3.jpg" style=" width: 130px; height: 190px;" />
+                            </li>
+                            <li class="bookP">
+                                <img src="~/Images/book4.jpg" style=" width: 130px; height: 190px;" />
+                            </li>
+                            <li class="bookP">
+                                <img src="~/Images/book5.jpg" style=" width: 130px; height: 190px;" />
+                            </li>
+                            <li class="bookP">
+                                <img src="~/Images/book6.jpg" style=" width: 130px; height: 190px;" />
+                            </li>
+                            <li class="bookP">
+                                <img src="~/Images/book7.jpg" style=" width: 130px; height: 190px;" />
+                            </li>
+
+                        </ol>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="bookdetailblock">
+            <h1>Cùng tác giả</h1>
+            <article>
+                <div class="bookslider"></div>
+                <div style="display: block; text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 900px; height: 210px; margin: 0px; overflow: hidden;">
+                    <ul class=" bookP" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 0px; margin: 0px; width: 4500px; height: 210px;list-style:none">
+                        <li class="bookP">
+                            <img src="~/Images/book1.jpg" style=" width: 130px; height: 190px;" />
+                        </li>
+                        <li class="bookP">
+                            <img src="~/Images/book2.jpg" style=" width: 130px; height: 190px;" />
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+        <div class="bookdetailblock">
+            <h1>Bình luận</h1>
+            <div>0 comments</div>
+            <div style="float:right;">Sort by</div>
+            <p></p>
+            <img src="~/Images/avtfb.jpg" />
+            <input type="text" value="add a comment" style="width:700px;height:50px"/>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,247 @@
+﻿body {
+}
+* {
+    padding: 0;
+    margin: 0
+}
+.page{
+
+}
+.container {
+}
+
+    .container.wrapper {
+        padding-top: 80px
+    }
+.bookdetailwrap {
+    background: src(~/Images/top2.png) repeat scroll 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 4px #444;
+    margin: 10px auto;
+    padding: 30px;
+    width: 940px;
+    min-height: 400px
+}
+
+    .bookdetailwrap .breadcrumbs {
+        position: relative;
+        top: 0
+    }
+
+.bookdetail {
+    padding: 10px 0 0;
+    color: #333
+}
+
+    .bookdetail .image {
+        float: left;
+        height: 342px;
+        position: relative;
+        width: 318px;
+        position: relative;
+        text-align: center
+    }
+
+        .bookdetail .image img {
+            max-height: 320px;
+            max-width: 320px;
+            border: 1px solid #ccc
+        }
+
+        .bookdetail .image .overlay {
+            display: none
+        }
+
+    .bookdetail .info {
+        margin-left: 366px;
+        border-bottom: 4px solid #cacbcc;
+    }
+
+        .bookdetail .info h1 {
+            border-bottom: 4px solid #cacbcc;
+            line-height: 0;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            color: #015e00;
+            font-size: 16px;
+            line-height: 25px
+        }
+
+            .bookdetail .info h1 a {
+                color: #015e00;
+                font-size: 16px;
+                line-height: 25px
+            }
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+.text-center {
+    text-align: center
+}
+.bookdetail .attributes {
+    float: left;
+}
+.bookdetail li {
+    border-bottom: 1px solid #999;
+    color: #333;
+    line-height: 20px;
+    padding: 5px 0;
+}
+    .bookdetail .action {
+    margin-left: 315px;
+    position: relative; 
+}
+
+
+    .bookdetail .price p {
+        margin-bottom: 5px;
+        background: #0f5731;
+        color: #fff;
+        font-size: 14px;
+        padding: 8px 5px
+    }
+.bookdetail .price {
+}
+    .bookdetail .price .oldprice {
+        background: #808081;
+        font-size: 12px;
+        padding: 5px
+    }
+
+        .bookdetail .price .oldprice span {
+            text-decoration: line-through;
+            font-weight: normal;
+            font-size: 12px
+        }
+    .bookdetail .price span {
+        padding-left: 5px;
+        font-size: 20px;
+        font-weight: bold
+    }
+.bookdetail .sbuttons {
+    margin-top: 10px
+}
+.bookdetail .intro {
+}
+.bookdetail .quantity {
+    display: block;
+    float: left;
+    width: 72px
+}
+.bookdetail .tbQty {
+    border: 1px solid #999;
+    font-size: 16px;
+    height: 45px;
+    text-align: center;
+    width: 35px
+}
+.bookdetail .arrowBlock {
+    height: 30px;
+    margin-left: -2px;
+    float: right;
+    width: 30px
+}
+
+.addtocart,
+.buynow{
+    background: #cf6b50;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 5px
+}
+.bookdetailblock {
+    border-top: 4px solid #cacbcc;
+    margin-top: 50px;
+    padding-top: 20px;
+    position: relative
+}
+
+    .bookdetailblock h1 {
+        background: none repeat scroll 0 0 #0f5731;
+        color: #fff;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: normal;
+        left: 0;
+        padding: 8px 15px;
+        position: absolute;
+        text-transform: uppercase;
+        top: -32px
+    }
+
+        .bookdetailblock h1 a {
+            color: #fff
+        }
+
+.bookdetailblockcontent {
+    color: #334
+}
+
+    .bookdetailblockcontent h1 {
+        border: medium none;
+        color: #0f5731;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: normal;
+        margin-top: 10px;
+        text-align: center
+    }
+
+    .bookdetailblockcontent article {
+        font-size: 14px ;
+        line-height: 21px ;
+        font-family: arial;
+        word-wrap: break-word
+    }
+
+        .bookdetailblockcontent article p {
+            margin-bottom: 10px
+        }
+.bookslider {
+    padding: 0 20px;
+    position: relative
+}
+.listbookP {
+    list-style:none;
+    background: src(~/Images/book_bg.png) repeat-y scroll 0 0 rgba(0,0,0,0);
+    margin: 10px auto 0;
+    padding: 0 50px;
+    width: 900px;
+}
+
+.bookP img {
+    padding: 10px;
+    display: block;
+    float: left;
+    width: 150px;
+    position: relative;
+    height: 210px;
+}
+#slider-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+.category {
+    color: #000;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    width: 220px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-transform: uppercase;
+    color:white;
+    background-color:darkgreen;
+}
