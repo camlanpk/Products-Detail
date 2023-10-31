@@ -37,6 +37,16 @@ namespace BookDetail.Controllers
             return View();
         }
 
+        public ActionResult MasterLayout()
+        {
+
+            return View();
+        }
+        public ActionResult Demo()
+        {
+
+            return View();
+        }
 
     }
 }

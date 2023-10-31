@@ -133,6 +133,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\DetailStyle.css" />
     <Content Include="Content\MyStyle.css" />
+    <Content Include="Content\StyleMaster.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -152,6 +153,9 @@
     <Content Include="Images\cartup.png" />
     <Content Include="Images\content.jpg" />
     <Content Include="Images\likefb.png" />
+    <Content Include="Images\loai-phai.png" />
+    <Content Include="Images\loai-trai.png" />
+    <Content Include="Images\loai.png" />
     <Content Include="Images\slide-wrapper.jpg" />
     <Content Include="Images\top2.png" />
     <Content Include="Images\top3.png" />
@@ -185,6 +189,9 @@
     <Content Include="Views\Shared\_Detail.cshtml" />
     <Content Include="Views\Home\Detail.cshtml" />
     <Content Include="Views\Home\Product.cshtml" />
+    <Content Include="Views\Shared\_LayoutPro.cshtml" />
+    <Content Include="Views\Home\MasterLayout.cshtml" />
+    <Content Include="Views\Home\Demo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

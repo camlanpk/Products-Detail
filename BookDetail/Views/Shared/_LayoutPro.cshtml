@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" charset="utf-8" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/MyStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+    </style>
+    <div id="div-top" style=" padding: 0 50px;">
+        <a href="/Home/GioiThieu">Giới thiệu</a>
+    </div>
+    <div id="div-top2" style=" padding: 0 50px;">
+        <a href="/Home/Test">Home</a>
+
+    </div>
+    <div id="div-top3">
+
+    </div>
+    <div id="div-top4">
+        @RenderBody()
+    </div>
+    <div id="div-footer1">
+
+    </div>
+    <div id="div-footer">
+
+    </div>
+</body>
+</html>

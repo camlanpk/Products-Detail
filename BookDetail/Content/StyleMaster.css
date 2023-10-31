@@ -1,20 +1,32 @@
-﻿body {
+﻿
+body {
 }
+
+a {
+    text-decoration: none;
+}
+ul, li {
+    list-style: none;
+}
+
 * {
     padding: 0;
     margin: 0
 }
-.page{
 
+.page {
 }
+
+
 .container {
 }
 
     .container.wrapper {
         padding-top: 80px
     }
+
 .bookdetailwrap {
-    background: src(~/Images/top2.png) repeat scroll 0 0 rgba(0,0,0,0);
+    background: url("http://nhanam.com.vn/Content/images2/headerbg.png") repeat scroll 0 0 rgba(0,0,0,0);
     box-shadow: 0 0 4px #444;
     margin: 10px auto;
     padding: 30px;
@@ -72,6 +84,7 @@
                 font-size: 16px;
                 line-height: 25px
             }
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -81,33 +94,39 @@
 .clearfix:after {
     clear: both
 }
+
 .text-center {
     text-align: center
 }
+
 .bookdetail .attributes {
     float: left;
 }
+
 .bookdetail li {
     border-bottom: 1px solid #999;
     color: #333;
     line-height: 20px;
     padding: 5px 0;
 }
-    .bookdetail .action {
+
+.bookdetail .action {
     margin-left: 315px;
-    position: relative; 
+    position: relative;
 }
 
 
-    .bookdetail .price p {
-        margin-bottom: 5px;
-        background: #0f5731;
-        color: #fff;
-        font-size: 14px;
-        padding: 8px 5px
-    }
+.bookdetail .price p {
+    margin-bottom: 5px;
+    background: #0f5731;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 5px
+}
+
 .bookdetail .price {
 }
+
     .bookdetail .price .oldprice {
         background: #808081;
         font-size: 12px;
@@ -119,21 +138,26 @@
             font-weight: normal;
             font-size: 12px
         }
+
     .bookdetail .price span {
         padding-left: 5px;
         font-size: 20px;
         font-weight: bold
     }
+
 .bookdetail .sbuttons {
     margin-top: 10px
 }
+
 .bookdetail .intro {
 }
+
 .bookdetail .quantity {
     display: block;
     float: left;
     width: 72px
 }
+
 .bookdetail .tbQty {
     border: 1px solid #999;
     font-size: 16px;
@@ -141,6 +165,7 @@
     text-align: center;
     width: 35px
 }
+
 .bookdetail .arrowBlock {
     height: 30px;
     margin-left: -2px;
@@ -149,7 +174,7 @@
 }
 
 .addtocart,
-.buynow{
+.buynow {
     background: #cf6b50;
     border: medium none;
     color: #fff;
@@ -161,6 +186,7 @@
     text-transform: uppercase;
     margin-right: 5px
 }
+
 .bookdetailblock {
     border-top: 4px solid #cacbcc;
     margin-top: 50px;
@@ -200,8 +226,8 @@
     }
 
     .bookdetailblockcontent article {
-        font-size: 14px ;
-        line-height: 21px ;
+        font-size: 14px;
+        line-height: 21px;
         font-family: arial;
         word-wrap: break-word
     }
@@ -209,30 +235,64 @@
         .bookdetailblockcontent article p {
             margin-bottom: 10px
         }
+
 .bookslider {
     padding: 0 20px;
     position: relative
 }
+    .bookslider .next,
+    .bookslider .prev {
+        background: url("http://nhanam.com.vn/Content/images2/arrright.png") no-repeat scroll center center rgba(0,0,0,0);
+        border: 0 none;
+        display: block;
+        height: 30px;
+        opacity: .8;
+        text-indent: -9999px;
+        transition: all 200ms ease-in-out 0s;
+        width: 30px;
+        z-index: 9;
+        position: absolute;
+        top: 90px
+    }
+
+        .bookslider .next:hover,
+        .bookslider .prev:hover {
+            opacity: 1
+        }
+
+    .bookslider .prev {
+        left: -8px;
+    }
+
+    .bookslider .next {
+        background-image: url("http://nhanam.com.vn/Content/images2/arrleft.png");
+        right: -8px
+    }
+.bookP {
+    float: left;
+    margin: 0 10px;
+    padding: 5px 0 71px;
+    position: relative;
+    height: 232px;
+}
+
 .listbookP {
-    list-style:none;
-    background: src(~/Images/book_bg.png) repeat-y scroll 0 0 rgba(0,0,0,0);
+    list-style: none;
+    background: url("http://nhanam.com.vn/Content/images/book_bg.png") repeat-y scroll 0 0 rgba(0,0,0,0);
     margin: 10px auto 0;
     padding: 0 50px;
     width: 900px;
 }
 
 .bookP img {
-    padding: 10px;
-    display: block;
-    float: left;
-    width: 150px;
-    position: relative;
-    height: 210px;
+    height: 226px
 }
+
 #slider-wrapper {
     width: 1000px;
     margin: 0 auto;
 }
+
 .category {
     color: #000;
     margin: 25px auto 30px;
@@ -242,8 +302,8 @@
     font-family: 'Times New Roman';
     font-size: 20px;
     text-transform: uppercase;
-    color:white;
-    background-color:darkgreen;
+    color: white;
+    background-color: darkgreen;
 }
 
 .pagetitle {
@@ -255,7 +315,7 @@
 }
 
     .pagetitle a {
-        background: url("~/Images/loai.png") no-repeat scroll center top rgba(0,0,0,0);
+        background: url("http://nhanam.com.vn/Content/images2/lbcenter.png") no-repeat scroll center top rgba(0,0,0,0);
         color: #fff;
         display: inline-block;
         font-family: 'Times New Roman';
@@ -268,7 +328,7 @@
     }
 
         .pagetitle a:before {
-            background: url("~/Images/loai-trai.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+            background: url("http://nhanam.com.vn/Content/images2/lbleft.png") no-repeat scroll 0 0 rgba(0,0,0,0);
             content: " ";
             display: block;
             height: 85px;
@@ -280,7 +340,7 @@
         }
 
         .pagetitle a:after {
-            background: url("~/Images/loai-phai.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+            background: url("http://nhanam.com.vn/Content/images2/lbright.png") no-repeat scroll 0 0 rgba(0,0,0,0);
             content: " ";
             display: block;
             height: 85px;
@@ -296,4 +356,60 @@
         text-shadow: none;
         padding-left: 15px
     }
+.popup {
+    background: url("http://nhanam.com.vn/Content/images2/book_hover.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+    display: none;
+    height: 250px;
+    left: 15px;
+    padding: 5px 20px;
+    position: absolute;
+    top: 157px;
+    width: 200px;
+    z-index: 1000
+}
+.name {
+    height: 20px;
+    width: 146px;
+    padding: 16px 0 0;
+    line-height: 14px;
+}
+    .name a {
+        color: #fff;
+        font-size: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+.description {
+    height: 48px;
+    color: #434343;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 5px 0 0;
+}
+.price {
+    display: block;
+    font-size: 24px;
+    margin-top: 8px;
+    color: #0f5731;
+}
+    .price .old {
+        text-decoration: line-through;
+        font-size: 14px;
+        color: #fff;
+    }
+.addtocart, .buynow, .preordernow {
+    background: url("http://nhanam.com.vn/Content/images2/book_button_bg.png") repeat scroll 0 0 rgba(0,0,0,0);
+    height: 25px;
+    line-height: 25px;
+    margin-left: 28px;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+}
+.bookP:hover .popup {
+    display: block;
+}
 

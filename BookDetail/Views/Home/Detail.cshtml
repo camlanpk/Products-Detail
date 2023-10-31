@@ -1,9 +1,9 @@
 ﻿
 @{
     ViewBag.Title = "Detail";
-    Layout = "~/Views/Shared/_Detail.cshtml";
+    Layout = "~/Views/Shared/_LayoutPro.cshtml";
 }
-<link href="~/Content/DetailStyle.css" rel="stylesheet" />
+<link href="~/Content/StyleMaster.css" rel="stylesheet" />
 <div class="container">
     <div class="bookdetailwrap" style="background-color:aliceblue">
         <div class="bookdetail clearfix">
@@ -84,7 +84,7 @@
             <article>
                 <div class="bookslider">
                     <div style="display: block; text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 900px; height: 210px; margin: 0px; overflow: hidden;">
-                        <ol class="clearfix bookP" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 0px; margin: 0px; width: 4500px; height: 210px;list-style:none">
+                        <ul class="clearfix bookP" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 0px; margin: 0px; width: 4500px; height: 210px;list-style:none">
                             <li class="bookP">
                                 <img src="~/Images/book2.jpg" style=" width: 130px; height: 190px;" />
                             </li>
@@ -104,8 +104,11 @@
                                 <img src="~/Images/book7.jpg" style=" width: 130px; height: 190px;" />
                             </li>
 
-                        </ol>
+                        </ul>
                     </div>
+                    <a class="next" href="#" style="display:block"></a>
+                    <a class="prev"  href="#" style="display:block"></a>
+
                 </div>
             </article>
         </div>
